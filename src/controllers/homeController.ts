@@ -40,3 +40,11 @@ export const excluir = async(req: Request, res: Response) => {
 
     res.redirect('/');
 }
+
+export const calculator = async(req:Request, res: Response) => {
+
+
+    res.render('pages/calc', {
+
+    })
+}

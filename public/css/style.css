@@ -72,6 +72,17 @@ a:hover{
     transition: all 0.3s ease;
 }
 
+.irCalc{
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+    font-size: 18px;
+}
+
+.irCalc:hover{
+    width: 14%;
+}
+
 .titleText{
     color: rgba(177, 239, 255, 0.897);
     text-shadow: 1px 1px 0 black;

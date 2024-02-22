@@ -11,7 +11,7 @@ router.get('/agenda/:id/excluir', HomeController.excluir);
 router.post('/novotrabalho', HomeController.novotrabalho);
 
 
-
+router.get('/calculadora', HomeController.calculator);
 
 
 
