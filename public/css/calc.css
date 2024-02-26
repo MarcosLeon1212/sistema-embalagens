@@ -30,6 +30,7 @@ a{
     top: 30px;
     text-decoration: none;
     color: gray;
+    display: flex;
 }
 
 a:hover{
