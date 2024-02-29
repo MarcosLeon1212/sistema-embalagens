@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts",
+    "deploy": "gh-pages --dist sistema-embalagens --branch main"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,8 @@
     "@types/mustache-express": "^1.2.1",
     "@types/node": "^15.12.5",
     "@types/sequelize": "^4.28.19",
-    "@types/validator": "^13.1.4"
+    "@types/validator": "^13.1.4",
+    "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
