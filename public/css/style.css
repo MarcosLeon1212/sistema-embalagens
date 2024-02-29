@@ -75,12 +75,40 @@ a:hover{
 .irCalc{
     flex-direction: row;
     position: absolute;
-    right: 50px;
-    font-size: 18px;
+    right: 100px;
+    top: 30px;
 }
 
 .irCalc:hover{
+    width: 8%;
+}
+
+.goStock{
+    position: absolute;
+    right: 330px;
+    top: 30px;
+}
+
+.goStock:hover{
     width: 14%;
+}
+
+.goTotal{
+    position: absolute;
+    right: 560px;
+    top: 30px;
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+.goTotal:hover{
+    border: solid 1px black;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    width: 10%;
+    font-size: 15;
+    transition: all 0.8s ease;
 }
 
 .titleText{

@@ -5,36 +5,18 @@ body{
 }
 
 .header{
-    width: 100%;
-    height: 110px;
-    border: solid black 2px;
-    display: flex;
-}
-
-.slogan{
-    width: 90px;
-    height: 90px;
+    border:solid black 2px
 }
 
 .titleText{
+    color: rgba(177, 239, 255, 0.897);
+    text-shadow: 1px 1px 0px black;
     position: absolute;
     left: 80px;
     top: 20px;
-    color: rgba(177, 239, 255, 0.897);
-    text-shadow: 1px 1px 0 black;
 }
 
-fieldset{
-    width: 20%;
-    border: solid 2px black;
-}
-
-input{
-    width: 90%;
-    font-size: 15px;
-}
-
-.home{
+.goControlCash{
     position: absolute;
     right: 100px;
     top: 30px;
@@ -42,7 +24,7 @@ input{
     color: rgb(94, 93, 93);
 }
 
-.home:hover{
+.goControlCash:hover{
     border: solid 1px black;
     background-color: blue;
     border-radius: 20px;
@@ -52,7 +34,7 @@ input{
     transition: all 0.8s ease;
 }
 
-.calculadora{
+.irCalc{
     position: absolute;
     right: 330px;
     top: 30px;
@@ -60,7 +42,7 @@ input{
     color: rgb(94, 93, 93);
 }
 
-.calculadora:hover{
+.irCalc:hover{
     border: solid 1px black;
     background-color: blue;
     border-radius: 20px;
@@ -70,7 +52,7 @@ input{
     transition: all 0.8s ease;
 }
 
-.goTotal{
+.goStock{
     position: absolute;
     right: 560px;
     top: 30px;
@@ -78,50 +60,41 @@ input{
     color: rgb(94, 93, 93);
 }
 
-.goTotal:hover{
+.goStock:hover{
     border: solid 1px black;
     background-color: blue;
     border-radius: 20px;
     color: white;
-    width: 10%;
-    font-size: 15;
     transition: all 0.8s ease;
 }
 
-.editBorderList{
-    border: solid 2px black;
-    width: 20%;
-    margin: 10px;
-    padding: 10px;
-}
+
 
 ul{
+    
     display: flex;
     flex-wrap: wrap;
 }
 
 .list{
+    border: solid 2px black;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
     text-decoration: none;
     display: block;
 }
 
-.editButtonLink{
+.exclude{
     text-decoration: none;
-    color: rgb(94, 93, 93)
-}
+    color: gray;
+} 
 
-.editButtonLink:hover{
-    border: solid 1px black;
+.exclude:hover{
     background-color: blue;
-    border-radius: 20px;
     color: white;
-    width: 10%;
-    font-size: 15;
     transition: all 0.8s ease;
+    border-radius: 20px;
+    border: solid 1px black;
 }
-
-.search{
-    position: absolute;
-    right: 200px;
-    top: 70px;
-}
+    

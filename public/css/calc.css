@@ -24,7 +24,7 @@ h3{
     text-shadow: 1px 1px 0 black;
 }
 
-a{
+.goCash{
     position: absolute;
     right: 100px;
     top: 30px;
@@ -33,12 +33,49 @@ a{
     display: flex;
 }
 
-a:hover{
+.goCash:hover{
     border: solid 1px black;
     background-color: blue;
     border-radius: 20px;
     color: white;
-    width: 15%;
+    width: 12%;
+    font-size: 15px;
+    transition: all 0.8s ease;
+}
+
+.goStock{
+    position: absolute;
+    right: 330px;
+    top: 30px;
+    text-decoration: none;
+    color: gray;
+    display: flex;
+}
+
+.goStock:hover{
+    border: solid 1px black;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    width: 12%;
+    font-size: 15px;
+    transition: all 0.8s ease;
+}
+
+.goTotal{
+    position: absolute;
+    right: 560px;
+    top: 30px;
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+.goTotal:hover{
+    border: solid 1px black;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    width: 10%;
     font-size: 15;
     transition: all 0.8s ease;
 }
